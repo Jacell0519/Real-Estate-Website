@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-TMvPxFdgxExr1Il2S17zYwIpkETePh3S9yK2nEtoQpg+btpeP2FI6zL8L4DZkZQ" crossorigin="anonymous">
+</head>
+<body>
+    <section class="mt-5">
+        <div class="text-center">
+            <h2 class="display-4">Welcome</h2>
+            <p>Explore our listings and discover the perfect home for you. Our team is here to help you every step of the way in your real estate journey.</p>
+        </div>
+    </section>
+    <header class="bg-dark text-white text-center py-5">
+        <h1 class="display-4">Your Real Estate Agency</h1>
+        <p class="lead">Find Your Dream Home with Us</p>
+    </header>
+
+    <div class="container mt-5">
+        <section class="text-center">
+            <h2 class="display-4 mb-4">Featured Property</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="~/lib/Images/home-2409004_1280.jpg" class="card-img-top" alt="Property Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Beautiful Home</h5>
+                        <p class="card-text">2482 Golden Street, Miami Florida</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.1/dist/umd/popper.min.js" integrity="sha384-cs12aL9AAqLjrPFT0VnbjpSMIdTZFC0q3EaFyA3R5PmedfjtFLF88qG8T5F5IKqF" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyFflpBlR8N2R5b2N4G2pAgk9+8F6yvmnm" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
